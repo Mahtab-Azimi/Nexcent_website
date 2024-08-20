@@ -1,0 +1,543 @@
+@media screen and (max-width:2000px) {
+    .smith__img {
+        width: 29rem;
+        height: 29rem;
+    }
+
+    .smith__icons {
+        justify-content: space-around;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container {
+        width: 1250px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .home__img {}
+
+    .home__content {}
+
+    .home__title {
+        font-size: 5.9rem;
+    }
+
+    .smith__icons {
+        gap: 4.5rem;
+    }
+
+    .meet__icon {
+        left: 18rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .home__img {
+        height: 39rem;
+        background-position: top left;
+    }
+
+    .home__title {
+        font-size: 6.3rem;
+    }
+
+    home__caption {
+        font-size: 1.9rem;
+        margin-top: 1.5rem;
+        margin-bottom: 3.7rem;
+    }
+
+    .communities-wrapper {
+        gap: 5.5rem;
+    }
+
+    .community__title {
+        line-height: 3rem;
+    }
+
+    .community__description {
+        line-height: 1.8rem;
+    }
+
+    .grade__content-title,
+    .design__content-title {
+        font-size: 3rem;
+        line-height: 3.6rem;
+    }
+
+    .grade__content-caption,
+    .design__content-caption {
+        padding-right: 6rem;
+    }
+
+    .figures__wrapper {
+        gap: 3rem;
+    }
+
+    .figures__left {
+        max-width: 45rem;
+    }
+
+    .figures__title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .figures__caption {
+        font-size: 1.4rem;
+    }
+
+    .figures__object {
+        font-size: 1.4rem;
+    }
+
+    .smith__icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .marketing__title {
+        font-size: 3rem;
+    }
+
+    .marketing__text {
+        font-size: 1.4rem;
+    }
+
+    .marketing__group {
+        margin-top: 0;
+    }
+
+    .marketing__more {
+        font-size: 1.4rem;
+    }
+
+    .marketing__icon {
+        bottom: 1rem;
+    }
+
+    .marketing__box {
+        padding: 1.5rem 2.5rem;
+    }
+
+    .libero__text {
+        padding: 0 10rem 3.5rem 10rem;
+    }
+
+    .footer__right {
+        flex-wrap: wrap;
+        gap: 3rem;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .nav__link {
+        display: none;
+    }
+
+    .home .row {
+        flex-direction: column-reverse;
+    }
+
+    .home__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home__img {
+        margin: 0 auto;
+        width: 41rem;
+        height: 44rem;
+    }
+
+    .home__title {
+        font-size: 5.5rem;
+    }
+
+    .community {
+        padding: 2.2rem .7rem;
+    }
+
+    .communities-wrapper {
+        gap: 3.5rem;
+    }
+
+    .section-head__title {
+        font-size: 3rem;
+        line-height: 3.7rem;
+    }
+
+    .grade__content-title,
+    .design__content-title {
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+
+    .grade__content-caption,
+    .design__content-caption {
+        font-size: 1.4rem;
+        margin: 1rem 0 2rem 0;
+        padding-right: 1rem;
+    }
+
+    .smith__img {
+        height: 34rem;
+    }
+
+    .smith__description {
+        line-height: 1.4;
+        font-size: 1.4rem;
+    }
+
+    .smith__name {
+        font-size: 1.8rem;
+    }
+
+    .smith__caption {
+        font-size: 1.4rem;
+    }
+
+    .smith__icons {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .marketing .row {
+        flex-direction: column;
+        gap: 7rem;
+        margin: 0 8rem;
+    }
+
+    .marketing__box {
+        height: 35%;
+        bottom: -15%;
+        padding: 2rem 4rem;
+    }
+
+    .marketing__text {
+        font-size: 1.6rem;
+    }
+
+    .marketing__more {
+        font-size: 1.8rem;
+    }
+
+    .marketing__group {
+        margin-top: -1.2rem;
+    }
+
+    .libero__text {
+        padding: 0 5rem 3.5rem 5rem;
+        font-size: 5.6rem;
+    }
+
+    .footer__wrapper {
+        gap: 12rem;
+    }
+
+    .footer__right {
+        gap: 6.5rem;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .menu {
+        position: absolute;
+        top: 100%;
+        flex-direction: column;
+        width: 100%;
+        right: 0;
+        left: 0;
+        align-items: center;
+        justify-content: center;
+        background-color: var(--white);
+        z-index: 1000;
+        box-shadow: 0 0 2.8rem rgb(171, 190, 209, 40%);
+        transition: all 200ms ease-in;
+        height: 0;
+        overflow: hidden;
+    }
+
+    .menu--open {
+        height: 20rem;
+    }
+
+    .menu__item {
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .menu__item:first-child {
+        margin-top: 2rem;
+    }
+
+    .menu__item:first-child {
+        padding-right: 0;
+    }
+
+    .nav__toggle-icon {
+        display: flex;
+    }
+
+    .home__title {
+        font-size: 5rem;
+    }
+
+    .home {
+        padding-top: 2rem;
+    }
+
+    .communities-wrapper {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .community {
+        width: 100%;
+        padding: 3.5rem 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .community__title {
+        font-size: 2.4rem;
+        line-height: 3.5rem;
+        margin: 1rem 0;
+    }
+
+    .community__description {
+        line-height: 2rem;
+    }
+
+    .section-head__title {
+        font-size: 3.3rem;
+    }
+
+    .communities {
+        border-bottom: none;
+    }
+
+    .grade,
+    .design {
+        margin: 5rem 0;
+    }
+
+    .grade__content,
+    .design__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .grade__content-title,
+    .design__content-title {
+        font-size: 3rem;
+        line-height: 3.5rem;
+    }
+
+    .grade__content-caption,
+    .design__content-caption {
+        font-size: 1.4rem;
+        margin: 2rem 0 2rem 0;
+        padding-right: 0;
+    }
+
+    .grade__img,
+    .design__img {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .figures__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .figures__left {
+        text-align: center;
+    }
+
+    .figures__right {
+        padding: 3.5rem 0 .5rem 0;
+    }
+
+    .figures__right .row .col-12 {
+        justify-content: center;
+    }
+
+    .figures__object {
+        font-size: 1.4rem;
+    }
+
+    .smith {
+        padding: 5rem 0;
+    }
+
+    .smith__wrapper {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .smith__img {
+        width: 50rem;
+        height: 37rem;
+    }
+
+    .smith__content {
+        text-align: center;
+    }
+
+    .smith__description {
+        font-size: 1.5rem;
+        line-height: 1.6;
+        padding: 2.5rem 1.5rem 0 1.5rem;
+    }
+
+    .smith__name {
+        font-size: 2.4rem;
+    }
+
+    .smith__caption {
+        font-size: 1.6rem;
+    }
+
+    .marketing .row {
+        gap: 5rem;
+        margin: 0 4rem;
+    }
+
+    .marketing__text {
+        font-size: 1.4rem;
+    }
+
+    .marketing__box {
+        height: 40%;
+        padding: 1rem 1rem;
+    }
+
+    .marketing__more {
+        font-size: 1.6rem;
+    }
+
+    .libero__text {
+        padding: 0 5rem 3.5rem 5rem;
+        font-size: 5rem;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer__wrapper {
+        flex-direction: column-reverse;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__right {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content__logo {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .home__img {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .home__title {
+        font-size: 4.5rem;
+    }
+
+    .home__caption {
+        padding: 0 2.5rem;
+        line-height: 1.3;
+    }
+
+    .section-head__title {
+        font-size: 2.8rem;
+    }
+
+    .grade__img,
+    .design__img {
+        width: 100%;
+    }
+
+    .grade__content-title,
+    .design__content-title {
+        font-size: 2.4rem;
+        line-height: 3rem;
+    }
+
+    .smith__img {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .smith__description {
+        padding-top: 2.5rem;
+    }
+
+    .marketing__head {
+        padding: 0 2.8rem;
+    }
+
+    .marketing__box {
+        height: 45%;
+    }
+
+    .libero__text {
+        padding: 0 0 3.5rem 0;
+        font-size: 4.9rem;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .home__img {
+        margin: 0 auto;
+        width: 30rem;
+        height: 30rem;
+        background-position: right center;
+    }
+
+    .home__title {
+        font-size: 3.3rem;
+    }
+
+    .section-head__title {
+        font-size: 2.5rem;
+    }
+
+    .meet__caption {
+        font-size: 2rem;
+    }
+
+    .marketing__box {
+        height: 55%;
+    }
+
+}
+
+@media screen and (max-width:334px) {
+    .home__img {
+        width: 26rem;
+        height: 26rem;
+    }
+
+}
